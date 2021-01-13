@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Calculadora {
@@ -73,7 +75,9 @@ public class Calculadora {
     }
     public static void imprimirResultado(double resultadoAMostrar) { // salida al usuario por consola
         System.out.println("El resultado es : " + resultadoAMostrar);
+        System.out.println("gracias por participar de esta prueba");
     }
+
 
 }
 
